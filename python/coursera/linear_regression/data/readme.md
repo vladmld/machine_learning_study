@@ -1,0 +1,1 @@
+population of city | profit of food truck in city
