@@ -1,16 +1,12 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+import pprint
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+data = pd.read_csv('../linear_regression/data/ex1data1.txt', header=None)
+x_values = data.values[:, 0]
+y_values = data.values[:, 1]
+m = len(y_values)
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+plt.plot()
